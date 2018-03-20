@@ -22,3 +22,16 @@ Jihin & Lorraine jotted down a diagram on a piece of paper.
 Completed challenge 2!
 
 #### Challenge 3 From a Domain Model to a Feature Test
+
+We set variable docking_station equal to DockingStation.new and got an error.
+
+backtrace
+```
+NameError: uninitialized constant DockingStation
+	from (irb):1
+	from /Users/lorrainephillips/.rvm/rubies/ruby-2.4.1/bin/irb:11:in `<main>'
+
+```
+We researched what a stacktrace/backtrace was and watched the feature testing video.
+
+From our understanding the error was because we hadn't initialised the Constant, i.e. we hadn't created the DockingStation Class yet.
