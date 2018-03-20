@@ -53,3 +53,7 @@ Line number: 1 for Lorraine, 5 for Jihin
 
 Here is another error code showing the same thing. We have agreed that when an error code comes up, it would usually be a good idea to research into the error type. In this case, it is NameError.
 We agreed that we should define the constant to directly fix this error.
+
+#### Challenge 5: From Feature Tests to Unit Tests
+
+The difference between the error codes is that the error happened within the rspec file. The error name and detail was the same.
